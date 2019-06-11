@@ -36,23 +36,23 @@ public class Animal{
 
         int sumOfNumber = 5 + 1;
 
-        System.out.print("5 + 1 = " + sumOfNumber);
+        System.out.println("5 + 1 = " + sumOfNumber);
 
         int diffOfNumber = 5 - 1;
 
-        System.out.print("5 - 1 = " + diffOfNumber);
+        System.out.println("5 - 1 = " + diffOfNumber);
 
         int multiOfNumber = 5 * 1;
 
-        System.out.print("5 * 1 = " + multiOfNumber);
+        System.out.println("5 * 1 = " + multiOfNumber);
 
         int divOfNumber = 5 / 1;
 
-        System.out.print("5 / 1 = " + divOfNumber);
+        System.out.println("5 / 1 = " + divOfNumber);
 
         int modOfNumber = 5 / 1;
 
-        System.out.print("5 / 1 = " + modOfNumber);
+        System.out.println("5 / 1 = " + modOfNumber);
     }
 
     public static void main(String[] args) {
