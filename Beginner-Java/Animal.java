@@ -4,7 +4,7 @@
 */
 
 import java.util.Scanner;
-import java.*;
+import java.util.*;
 
 public class Animal{
 
@@ -32,7 +32,33 @@ public class Animal{
     static Scanner userinput = new Scanner(System.in);
 
     public Animal(){
-        super();
+        numberOfAnimals++;
+
+        int sumOfNumber = 5 + 1;
+
+        System.out.print("5 + 1 = " + sumOfNumber);
+
+        int diffOfNumber = 5 - 1;
+
+        System.out.print("5 - 1 = " + diffOfNumber);
+
+        int multiOfNumber = 5 * 1;
+
+        System.out.print("5 * 1 = " + multiOfNumber);
+
+        int divOfNumber = 5 / 1;
+
+        System.out.print("5 / 1 = " + divOfNumber);
+
+        int modOfNumber = 5 / 1;
+
+        System.out.print("5 / 1 = " + modOfNumber);
+    }
+
+    public static void main(String[] args) {
+        Animal theAnimal = new Animal();
+
+    
     }
 
 }
