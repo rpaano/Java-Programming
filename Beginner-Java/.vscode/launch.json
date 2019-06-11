@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Animal",
+            "request": "launch",
+            "mainClass": "Animal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cat",
+            "request": "launch",
+            "mainClass": "Cat"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
